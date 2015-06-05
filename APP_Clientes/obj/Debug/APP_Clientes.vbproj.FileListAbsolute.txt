@@ -7,3 +7,4 @@ C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.vbp
 C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.exe
 C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.xml
 C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.pdb
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.Form1.resources
