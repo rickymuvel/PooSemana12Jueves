@@ -1,0 +1,9 @@
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\bin\Debug\APP_Clientes.exe.config
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\bin\Debug\APP_Clientes.exe
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\bin\Debug\APP_Clientes.pdb
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\bin\Debug\APP_Clientes.xml
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.Resources.resources
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.vbproj.GenerateResource.Cache
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.exe
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.xml
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\APP_Clientes\obj\Debug\APP_Clientes.pdb
