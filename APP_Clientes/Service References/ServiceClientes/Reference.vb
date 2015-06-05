@@ -29,6 +29,12 @@ Namespace ServiceClientes
         
         <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServicioCliente/PedidosCliente", ReplyAction:="http://tempuri.org/IServicioCliente/PedidosClienteResponse")>  _
         Function PedidosClienteAsync(ByVal idcli As String) As System.Threading.Tasks.Task(Of System.Data.DataSet)
+        
+        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServicioCliente/ProductoListar", ReplyAction:="http://tempuri.org/IServicioCliente/ProductoListarResponse")>  _
+        Function ProductoListar() As System.Data.DataSet
+        
+        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServicioCliente/ProductoListar", ReplyAction:="http://tempuri.org/IServicioCliente/ProductoListarResponse")>  _
+        Function ProductoListarAsync() As System.Threading.Tasks.Task(Of System.Data.DataSet)
     End Interface
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
@@ -76,6 +82,14 @@ Namespace ServiceClientes
         
         Public Function PedidosClienteAsync(ByVal idcli As String) As System.Threading.Tasks.Task(Of System.Data.DataSet) Implements ServiceClientes.IServicioCliente.PedidosClienteAsync
             Return MyBase.Channel.PedidosClienteAsync(idcli)
+        End Function
+        
+        Public Function ProductoListar() As System.Data.DataSet Implements ServiceClientes.IServicioCliente.ProductoListar
+            Return MyBase.Channel.ProductoListar
+        End Function
+        
+        Public Function ProductoListarAsync() As System.Threading.Tasks.Task(Of System.Data.DataSet) Implements ServiceClientes.IServicioCliente.ProductoListarAsync
+            Return MyBase.Channel.ProductoListarAsync
         End Function
     End Class
 End Namespace

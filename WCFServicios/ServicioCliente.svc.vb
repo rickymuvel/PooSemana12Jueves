@@ -4,6 +4,7 @@ Imports System.Data.SqlClient
 
 Public Class ServicioCliente
     Implements IServicioCliente
+
     ' solo presionamos enter.
     Dim cn As New SqlConnection("Data Source=localhost;Initial Catalog=Negocios2015;UID=sa;PWD=sql")
 
@@ -21,6 +22,14 @@ Public Class ServicioCliente
         Dim ds As New DataSet
         da.SelectCommand.CommandType = CommandType.StoredProcedure
         da.SelectCommand.Parameters.AddWithValue("@IdCliente", idcli)
+        da.Fill(ds)
+        Return ds
+    End Function
+
+    Public Function ProductoListar() As DataSet Implements IServicioCliente.ProductoListar
+        Dim da As New SqlDataAdapter("SP_LISTAPRODUCTOSWCF", cn)
+        Dim ds As New DataSet
+        da.SelectCommand.CommandType = CommandType.StoredProcedure
         da.Fill(ds)
         Return ds
     End Function

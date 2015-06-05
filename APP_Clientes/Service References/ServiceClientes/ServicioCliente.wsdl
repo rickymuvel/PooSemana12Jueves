@@ -19,6 +19,12 @@
   <wsdl:message name="IServicioCliente_PedidosCliente_OutputMessage">
     <wsdl:part name="parameters" element="tns:PedidosClienteResponse" />
   </wsdl:message>
+  <wsdl:message name="IServicioCliente_ProductoListar_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProductoListar" />
+  </wsdl:message>
+  <wsdl:message name="IServicioCliente_ProductoListar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProductoListarResponse" />
+  </wsdl:message>
   <wsdl:portType name="IServicioCliente">
     <wsdl:operation name="ClienteListar">
       <wsdl:input wsaw:Action="http://tempuri.org/IServicioCliente/ClienteListar" message="tns:IServicioCliente_ClienteListar_InputMessage" />
@@ -27,6 +33,10 @@
     <wsdl:operation name="PedidosCliente">
       <wsdl:input wsaw:Action="http://tempuri.org/IServicioCliente/PedidosCliente" message="tns:IServicioCliente_PedidosCliente_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IServicioCliente/PedidosClienteResponse" message="tns:IServicioCliente_PedidosCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProductoListar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioCliente/ProductoListar" message="tns:IServicioCliente_ProductoListar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioCliente/ProductoListarResponse" message="tns:IServicioCliente_ProductoListar_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IServicioCliente" type="tns:IServicioCliente">
@@ -42,6 +52,15 @@
     </wsdl:operation>
     <wsdl:operation name="PedidosCliente">
       <soap:operation soapAction="http://tempuri.org/IServicioCliente/PedidosCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProductoListar">
+      <soap:operation soapAction="http://tempuri.org/IServicioCliente/ProductoListar" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

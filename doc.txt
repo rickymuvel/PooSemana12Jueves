@@ -1,0 +1,7 @@
+http://localhost:52022/ServicioCliente.svc?wsdl
+
+
+En esta solución hay dos proyectos, y APP_Clientes debe ser el proyecto de inicio.
+
+Cuando trabajas con servicios lo mejor es que el servicio te devuelva datos del tipo colection.
+A Todos los servicios creados VIsual basic le añade el sufijo "Client"

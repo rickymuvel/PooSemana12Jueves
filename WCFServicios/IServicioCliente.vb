@@ -14,5 +14,8 @@ Public Interface IServicioCliente
     Function PedidosCliente(idcli As String) As DataSet
     ' estos son los métodos que vamos a implementar en el servicio.
 
+    <OperationContract()>
+    Function ProductoListar() As DataSet
+
 
 End Interface

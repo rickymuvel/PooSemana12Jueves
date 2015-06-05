@@ -7,3 +7,4 @@ C:\Users\Cibertec\Desktop\Examen\APP_WCF\WCFServicios\bin\WCFServicios.xml
 C:\Users\Cibertec\Desktop\Examen\APP_WCF\WCFServicios\obj\Debug\WCFServicios.dll
 C:\Users\Cibertec\Desktop\Examen\APP_WCF\WCFServicios\obj\Debug\WCFServicios.xml
 C:\Users\Cibertec\Desktop\Examen\APP_WCF\WCFServicios\obj\Debug\WCFServicios.pdb
+C:\Users\Cibertec\Desktop\Examen\APP_WCF\WCFServicios\obj\Debug\WCFServicios.vbprojResolveAssemblyReference.cache
